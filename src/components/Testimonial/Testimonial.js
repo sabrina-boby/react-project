@@ -16,8 +16,8 @@ const Testimonial = () => {
   const [index, setIndex] = useState(0);
   const testimonials = [
     { id: 1, video: video1, image: customer1, name: "Khalid Al Dawsry", address: "Jeddah, Saudi", quote: "You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it." },
-    { id: 2, video: video2, image: customer1, name: "OG", address: "Jeddah, Saudi", quote: "Love You" },
-    { id: 3, video: video3, image: customer1, name: "SB", address: "Jeddah, Saudi", quote: "Like You" },
+    { id: 2, video: video2, image: customer1, name: "OG", address: "Jeddah, Saudi", quote: "Hi my name is sabrina boby" },
+    { id: 3, video: video3, image: customer1, name: "SB", address: "Jeddah, Saudi", quote: "I use - React - Tailwind CSS - MongoDB for this code" },
   ];
 
   const previousTestimonial = () => {
