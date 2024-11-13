@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky top-0 px-4 py-3 z-20 text-white bg-no-repeat bg-cover bg-center transition-all duration-300 ${
+      className={`sticky top-0 px-4 py-3 z-40 text-white bg-no-repeat bg-cover bg-center transition-all duration-300 ${
         isScrolled ? "bg-red-700" : "bg-transparent"
       }`}
       style={isScrolled ? { backgroundImage: `url(${bgImage})` } : {}}

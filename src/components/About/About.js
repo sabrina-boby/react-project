@@ -15,7 +15,7 @@ const About = () => {
   };
   return (
     <section className="relative mx-auto p-4 sm:px-10 sm:py-20">
-      <img src={Plate} alt="Plate Image" className="absolute top-80 right-0"/>
+      <img src={Plate} alt="Plate Image" className="hidden sm:block absolute top-[460px] right-0 w-28"/>
       <div className="container mx-auto ">
         <div className="gap-12 md:flex justify-between">
           <div className="relative w-full md:w-[1200px] mx-auto">
